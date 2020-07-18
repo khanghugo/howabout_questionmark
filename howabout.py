@@ -14,7 +14,9 @@ except:
 	pass
 
 for i in range( (iterationStart + iterationOffset) , iterationNbr ):
-	print( f"{mainTopic} {i} and ", end='', flush=True)
 
 	if i == iterationNbr - 1:
 		print( f"{mainTopic} {i}?", end='', flush=True)
+		
+	else:
+		print( f"{mainTopic} {i} and ", end='', flush=True)
